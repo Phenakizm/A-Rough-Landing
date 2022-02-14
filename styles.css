@@ -1,0 +1,196 @@
+html {
+    box-sizing: border-box;
+  }
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    height: 100vh;
+    margin: 0;
+    overflow: scroll;
+    font-family: Roboto, 'Open-Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 8px;
+    gap: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 20rem;
+}
+
+p {
+    color: #1F2937;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    height: 1.5rem;
+    border-radius: 4px;
+    border-style: none;
+}
+
+/* Everything above this is html and body styling and type selectors. Everything below is ID and class selectors*/
+
+/* The Hero Box - First quarter of the page */
+.herobox {
+    display: flex;
+    flex-flow: column;
+    background-color: #1F2937;
+}
+
+/* The top logo and links */
+.topbar {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1 0;
+    padding: 8px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+    padding: 8px;
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+.herolinks {
+    width: 20rem;
+}
+
+/* The hero content and img  */
+.herocon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+    padding: 16px;
+}
+
+.hero {
+    width: 32rem;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: .5rem;
+    color: #F9FAF8;
+}
+
+.herosub {
+    font-size: 18px;
+    margin-bottom: .5rem;
+    color: #E5E7EB;
+}
+
+/* The Info Box - Second quarter of the page */
+.infobox {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.infotitle {
+    margin: 2rem 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    flex: 1;
+    padding: 3rem;
+    gap: 3rem;
+}
+
+.card {
+    max-width: 20rem;
+}
+
+/* The Quote Box - Third quarter of the page */
+.quotebox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 1;
+    padding: 12rem 16rem;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+
+/* The Foot Box - The fourth and final section of the page */
+.footbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    flex: 1;
+    padding: 4rem 8rem;
+}
+
+.contactbox {
+    display: flex;
+    flex-flow: column;
+    padding: 2rem 4rem;
+    border-radius: 8px;
+    background-color: #3882F6;
+}
+
+.contact {
+    display: flex;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.contactsub {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #E5E7EB;
+}
+
+.contbutton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 2rem;
+    border-style: solid;
+    border-color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0;
+    height: 6rem;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
